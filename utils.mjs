@@ -35,5 +35,8 @@ export const leerSuperheroes = ruta => {
     return superheroes;
 }
 
+//Nueva función para agregar superhéroes
+/*export const agregarSuperheroes = (rutaOriginal,rutaNuevos) => {
 
+} */
 
