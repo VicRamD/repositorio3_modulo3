@@ -1,0 +1,10 @@
+[
+    {
+    "id": 4, "nombreSuperheroe": "Primer Pedrada", "nombreReal": "Pedro Del Monte",
+    "nombreSociedad": "Vigilante", "edad": 26,
+    "planetaOrigen": "Tierra", "debilidad": "Enmascarar intenciones",
+    "poder": ["Reflejos superhumanos", "Manejo de multiples armas", "Agilidad"],
+    "habilidadEspecial": "Sentido de peligro",
+    "aliado": ["Creador de Juego"], "enemigo": ["Sonambulo"]
+    }
+]

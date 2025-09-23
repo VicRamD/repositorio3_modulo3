@@ -33,10 +33,47 @@ export const leerSuperheroes = ruta => {
     //Ordenar por nombre de superheroes
     superheroes.sort((a,b)=>a.nombreSuperheroe.localeCompare(b.nombreSuperheroe));
     return superheroes;
-}
+};
 
 //Nueva función para agregar superhéroes
-/*export const agregarSuperheroes = (rutaOriginal,rutaNuevos) => {
+export const agregarSuperheroes = (rutaOriginal,rutaNuevos) => {
+    const datosOriginales = fs.readFileSync(rutaOriginal, 'utf8');
+    const datosNuevos = fs.readFileSync(rutaNuevos, 'utf8');
 
-} */
+    const superheroesOriginales = JSON.parse(datosOriginales);
+    const nuevosSuperheroes = JSON.parse(datosNuevos);
+
+    const listaMezclada = [...superheroesOriginales, ...nuevosSuperheroes];
+    console.log(listaMezclada);
+
+    //convertir todos los superhéroes a instancias de superheroes
+    const instanciasTodos = listaMezclada.map(
+        hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad,
+            hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado,
+            hero.enemigo
+    ));
+
+    fs.writeFileSync(rutaOriginal, JSON.stringify(instanciasTodos, null, 2),'utf8');
+    console.log("Lista de superhéroes actualizada con éxito");
+
+    /*
+    const instanciaHeoresOriginales = superheroesOriginales.map(
+        hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad,
+            hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado,
+            hero.enemigo
+    )        
+    );
+
+    //convertir los nuevos superhéroes a instancias de superheroes
+    const instanciasNuevos = nuevosSuperheroes.map(
+        hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad,
+            hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado,
+            hero.enemigo
+    ));
+
+    //Combinar listas
+    const listaActualizada = [...datosOriginales, ...instanciasNuevos];
+    fs.writeFileSync(rutaOriginal, JSON.stringify(listaActualizada, null, 2),'utf8');
+    console.log("Lista de superhéroes actualizada con éxito"); */
+};
 

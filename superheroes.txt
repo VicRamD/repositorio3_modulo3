@@ -1,24 +1,87 @@
-[{
-    "id": 1, "nombreSuperheroe": "Spiderman", "nombreReal": "Peter Parker",
-    "nombreSociedad": "Vigilante", "edad": 25,
-    "planetaOrigen": "Tierra", "debilidad": "Radioactiva",
-    "poder": ["Trepar paredes", "Sentido arácnido", "Super fuerza",
-    "Agilidad"], "habilidadEspecial": "Redes de telaraña",
-    "aliado": ["Ironman"], "enemigo": ["Duende Verde"]
-},
-{
-    "id": 2, "nombreSuperheroe": "Ironman", "nombreReal": "Tony Stark",
-    "nombreSociedad": "Vigilante", "edad": 45, "planetaOrigen": "Tierra",
+[
+  {
+    "id": 1,
+    "nombreSuperheroe": "Spiderman",
+    "nombreReal": "Peter Parker",
+    "nombreSociedad": "Vigilante",
+    "edad": 25,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Radioactiva",
+    "poder": [
+      "Trepar paredes",
+      "Sentido arácnido",
+      "Super fuerza",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Redes de telaraña",
+    "aliado": [
+      "Ironman"
+    ],
+    "enemigo": [
+      "Duende Verde"
+    ]
+  },
+  {
+    "id": 2,
+    "nombreSuperheroe": "Ironman",
+    "nombreReal": "Tony Stark",
+    "nombreSociedad": "Vigilante",
+    "edad": 45,
+    "planetaOrigen": "Tierra",
     "debilidad": "Dependiente de la tecnología",
-    "poder": ["Armadura blindada", "Volar", "Lásers"],
+    "poder": [
+      "Armadura blindada",
+      "Volar",
+      "Lásers"
+    ],
     "habilidadEspecial": "Ingeniería avanzada",
-    "aliado": ["Spiderman"], "enemigo": ["Mandarín"]
-},
-{
-    "id": 3, "nombreSuperheroe": "Thor", "nombreReal": "Thor Odinson",
-    "nombreSociedad": "Dios del Trueno", "edad": 1000,
-    "planetaOrigen": "Asgard", "debilidad": "Destruir su martillo",
-    "poder": ["Controlar el trueno", "Fuerza sobrehumana", "Inmortal"],
+    "aliado": [
+      "Spiderman"
+    ],
+    "enemigo": [
+      "Mandarín"
+    ]
+  },
+  {
+    "id": 3,
+    "nombreSuperheroe": "Thor",
+    "nombreReal": "Thor Odinson",
+    "nombreSociedad": "Dios del Trueno",
+    "edad": 1000,
+    "planetaOrigen": "Asgard",
+    "debilidad": "Destruir su martillo",
+    "poder": [
+      "Controlar el trueno",
+      "Fuerza sobrehumana",
+      "Inmortal"
+    ],
     "habilidadEspecial": "Invocación de tormentas",
-    "aliado": ["Loki"], "enemigo": ["Hela"]
-}]
+    "aliado": [
+      "Loki"
+    ],
+    "enemigo": [
+      "Hela"
+    ]
+  },
+  {
+    "id": 4,
+    "nombreSuperheroe": "Primer Pedrada",
+    "nombreReal": "Pedro Del Monte",
+    "nombreSociedad": "Vigilante",
+    "edad": 26,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Enmascarar intenciones",
+    "poder": [
+      "Reflejos superhumanos",
+      "Manejo de multiples armas",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Sentido de peligro",
+    "aliado": [
+      "Creador de Juego"
+    ],
+    "enemigo": [
+      "Sonambulo"
+    ]
+  }
+]
