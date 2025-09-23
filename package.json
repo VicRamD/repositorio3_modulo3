@@ -1,0 +1,19 @@
+{
+  "name": "repositorio3_modulo3",
+  "version": "1.0.0",
+  "description": "gestón\u001b[D\u001b[Di\u001b[F\u001b[D0\u001b[C\u001b[C\u001b[E\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001bión de módulos con npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VicRamD/repositorio3_modulo3.git"
+  },
+  "author": "Víctor Francisco Ramirez Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VicRamD/repositorio3_modulo3/issues"
+  },
+  "homepage": "https://github.com/VicRamD/repositorio3_modulo3#readme"
+}
