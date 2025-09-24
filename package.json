@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VicRamD/repositorio3_modulo3/issues"
   },
-  "homepage": "https://github.com/VicRamD/repositorio3_modulo3#readme"
+  "homepage": "https://github.com/VicRamD/repositorio3_modulo3#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
